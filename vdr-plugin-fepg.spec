@@ -1,8 +1,8 @@
 
 %define plugin	fepg
 %define name	vdr-plugin-%plugin
-%define version	0.2.1
-%define rel	11
+%define version	0.3.0
+%define rel	1
 
 Summary:	VDR plugin: A Graphical EPG
 Name:		%name
@@ -10,8 +10,8 @@ Version:	%version
 Release:	%mkrel %rel
 Group:		Video
 License:	GPL
-URL:		http://fepg.tk/
-Source:		http://fepg2.f2g.net/vdr-%plugin-%version.tar.bz2
+URL:		http://fepg2.f2g.net/
+Source:		http://fepg2.f2g.net/vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
@@ -43,5 +43,3 @@ rm -rf %{buildroot}
 %files -f %plugin.vdr
 %defattr(-,root,root)
 %doc README HISTORY
-
-
