@@ -1,7 +1,7 @@
 
 %define plugin	fepg
 %define name	vdr-plugin-%plugin
-%define version	0.3.0
+%define version	0.3.1
 %define rel	1
 
 Summary:	VDR plugin: A Graphical EPG
@@ -9,7 +9,7 @@ Name:		%name
 Version:	%version
 Release:	%mkrel %rel
 Group:		Video
-License:	GPL
+License:	GPL+
 URL:		http://fepg2.f2g.net/
 Source:		http://fepg2.f2g.net/vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
