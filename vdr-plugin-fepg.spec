@@ -12,6 +12,7 @@ Group:		Video
 License:	GPL+
 URL:		http://fepg2.f2g.net/
 Source:		http://fepg2.f2g.net/vdr-%plugin-%version.tgz
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
 
