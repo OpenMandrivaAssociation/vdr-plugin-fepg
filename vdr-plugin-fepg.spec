@@ -2,7 +2,7 @@
 %define plugin	fepg
 %define name	vdr-plugin-%plugin
 %define version	0.4.1
-%define rel	1
+%define rel	2
 
 Summary:	VDR plugin: A Graphical EPG
 Name:		%name
