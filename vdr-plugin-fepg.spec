@@ -3,7 +3,7 @@
 Summary:	VDR plugin: A Graphical EPG
 Name:		vdr-plugin-%plugin
 Version:	0.4.1
-Release:	4
+Release:	5
 Group:		Video
 License:	GPLv2+
 URL:		http://fepg.org/
