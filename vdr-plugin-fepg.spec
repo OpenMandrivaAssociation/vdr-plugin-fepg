@@ -6,7 +6,7 @@ Version:	0.4.1
 Release:	5
 Group:		Video
 License:	GPLv2+
-URL:		http://fepg.org/
+URL:		https://fepg.org/
 Source:		http://fepg.org/files/vdr-%plugin-%version.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
